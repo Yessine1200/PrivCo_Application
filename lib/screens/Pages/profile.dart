@@ -56,7 +56,8 @@ class _ProfileState extends State<Profile> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
+      appBar:
+      AppBar(
         //leading: IconButton(icon:Icon(Icons.arrow_back),onPressed: (){},),
         backgroundColor: Color.fromRGBO(249, 241, 240, 100),
         elevation: 0,
