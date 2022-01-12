@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "46642031992",
+    "project_id": "privco-c1bb2",
+    "storage_bucket": "privco-c1bb2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46642031992:android:62441dcb42869996e1ac8d",
+        "android_client_info": {
+          "package_name": "com.example.privco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "46642031992-lgnbodmi183v4ce7mfrdlaf8l53hv8gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD89oaAFP2x1_HCuCKrvqd2RuocpvTMaW4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "46642031992-lgnbodmi183v4ce7mfrdlaf8l53hv8gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
