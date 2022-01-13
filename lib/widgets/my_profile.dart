@@ -19,8 +19,7 @@ class MyProfile extends StatefulWidget {
   final String startingWeight;
   final String height;
   final String tragetWeight;
-  //final String userId;
-  //final Key key;
+
 
  MyProfile( this.userName, this.email, this.age, this.imageUser, this.startingWeight, this.height, this.tragetWeight) ;
 
@@ -32,7 +31,6 @@ class _MyProfileState extends State<MyProfile> {
 
 
   String value = "";
-
   File _pickedImage ;
   String _imagepath;
 
