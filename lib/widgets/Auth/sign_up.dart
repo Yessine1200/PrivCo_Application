@@ -174,7 +174,7 @@ class _SignUpState extends State<SignUp> {
                   children: [
                     TextButton.icon(
                       onPressed: (){
-                        //signInWithFacebook();
+                        signInWithFacebook();
                       },
                       icon: Icon(Icons.facebook),
                       label: Text(''),
@@ -219,7 +219,7 @@ class _SignUpState extends State<SignUp> {
     );
 
   }
-  /*Future<UserCredential> signInWithFacebook() async {
+  Future<UserCredential> signInWithFacebook() async {
     Map<String, dynamic> _userData;
 
     String welcome = "Facebook";
@@ -245,6 +245,6 @@ class _SignUpState extends State<SignUp> {
     final AuthCredential facebookAuthCredential = FacebookAuthProvider.credential(result.accessToken.token);
 
     return FirebaseAuth.instance.signInWithCredential(facebookAuthCredential);
-  }*/
+  }
 
 }
